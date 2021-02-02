@@ -8,17 +8,64 @@
   body {
     padding: 0;
     margin: 0;
-    background: #bebebd;
+    background:royalblue;
     min-width: 100%;
   
   }
   .navbar {
-      background: rgb(83, 116, 116);
+      background: white;
   }
-  .navbar-collapse {
-      justify-content: flex-end;
-  
-  }
+
+
+  .navbar-custom{
+         
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-nav a {
+	
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+   
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+	color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+}
+.navbar-nav {
+	text-align: center;
+}
+
+.nav-link.active, .nav-link:focus {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color:black;
+}
+
+.navbar-nav .open .dropdown-menu {
+  background-color:black;
+}
+ 
   
   
   
@@ -60,16 +107,14 @@
     padding: 1em;
     position: relative;
   }
-  .nav-item {
+  .side-nav .nav-item {
     max-width: 150px;
-    border-top: 1px solid rgb(7, 7, 7);
-    border-left: 1px solid rgb(32, 32, 32);
-    backdrop-filter: blur(5px);
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
-    border-radius: 10px;
+    
     background-color: white;
+    border-radius: 25px;
   
   }
   .nav-item a {
@@ -95,16 +140,34 @@
   .welcome{
       margin-bottom: 60px;
       font-size: 18px;
-      border-top: 1px solid rgba(13, 241, 135, 0.5);
-      border-left: 1px solid rgba(25, 224, 125, 0.5);
-      backdrop-filter: blur(5px);
       margin-top: 10px;
       margin-bottom: 10px;
       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.164);
       background: rgb(251, 253, 252);
       overflow: hidden;
-      border-radius: 15px;
+     
   
   } 
+
+  html{
+    height: 100%;
+    scroll-padding-top: var(--header-height, 5rem);
+    scroll-behavior: smooth;
+  }
+
+  :target{
+    scroll-margin-top: 1rem;
+  }
+
+  .footer{
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgb(141, 140, 140);
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 60px 0 30px;
+}
+
 
 
