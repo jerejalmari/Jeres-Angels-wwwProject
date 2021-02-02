@@ -9,8 +9,8 @@ font-family: futura;
 
   
 body {
-     background-color: lightblue;
-       
+  
+
         max-width: 100%;
         padding: 0;
         margin: 0;
@@ -18,7 +18,8 @@ body {
    
   }
   .features {
-    margin: 4em auto;
+    
+    margin-bottom: 4em ;
     padding: 1em;
     position: relative;
      
@@ -32,8 +33,9 @@ body {
 
   .list-group-item-warning{
       padding: 15px 1 5px;
-      background-color: rgb(161, 163, 167);
-      color: black;
+      background-color:    rgb(84, 172, 172);
+
+      color: rgb(0, 0, 0);
       margin-bottom: 20px;
       text-align: center;
   }
@@ -43,7 +45,7 @@ body {
 .footer{
     
     box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(190, 183, 183, 0.726);
    
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -101,17 +103,19 @@ body {
 	color:white;
 }
 
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    top: -500px;
+    
+    }
 
+    
 
 
     
-    .carousel-item  {
-        height: 75vh;
-        
-        width: 100%;
-        
-        
-    }
+    
 
     
     .w-100{
@@ -129,7 +133,7 @@ body {
         margin: 0;
         color: white;
         left: 50%;
-        top: 50%;
+        bottom: -250px;
         transform: translate(-50%, -50%);
         text-shadow: 2px -2px 0 black;
       }
@@ -203,3 +207,39 @@ body {
         backdrop-filter: blur(5px);
         font-family: futura;
     }
+
+
+      
+    .feedback-container .feedback-card{ 
+        
+        
+     
+      
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -200px;
+        margin-left: -500px;
+       
+       width: 1000px;
+       height: 400px;
+       
+       box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display:flexbox;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+    }
+
+    .feedback-container .feedback-card .feedback-content {
+        font-family: futura;
+     
+        
+    }
+    
+   
+   

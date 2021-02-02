@@ -1,0 +1,127 @@
+@font-face{
+  src: url(fonts/futura\ medium\ bt.ttf);
+  font-family: futura;
+  }
+  
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+  background: #e8eedb;
+  min-width: 100%;
+  
+}
+.navbar-custom{
+     
+  box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.navbar-nav a {
+font-family: futura;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.navbar-light .navbar-brand {
+font-family: futura;
+color: black;
+font-size: 25px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+color:black;
+}
+.navbar-nav {
+text-align: center;
+}
+
+.nav-link.active,  .nav-link:focus {
+color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,  .navbar-light .navbar-nav .nav-link:hover {
+color:white;
+}
+
+.navbar-nav .open .dropdown-menu {
+  background-color:black;
+}
+
+
+
+  .features {
+	
+  padding:  1em;
+    position: relative;
+   
+    margin-top: 1em;
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+     
+  }
+  .features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  max-width: 100%;
+  height: auto;
+  }
+
+  #wrap{
+    width:100%;
+    margin:15px 0 5px;
+    font-family: futura;
+    font-size:16px;
+    color:black;
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+     
+  }
+
+  #mainpage {
+    width:100%;
+    float:left;
+    padding:5px 5px 5px 0px;
+    height:auto;
+  }
+
+.container {
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+  box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+ 
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+   
+}
