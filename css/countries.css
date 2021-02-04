@@ -1,3 +1,7 @@
+@font-face{
+  src: url('../fonts/futura\ medium\ bt.ttf');
+  font-family: futura;
+  }
 
 
 
@@ -6,6 +10,7 @@
     margin: 0;
     background:white;
     min-width: 100%;
+    font-family: futura;
   
   }
   .navbar {
