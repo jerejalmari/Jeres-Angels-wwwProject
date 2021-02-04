@@ -1,0 +1,136 @@
+.about-container .about-card{ 
+           
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: -250x;
+    margin-left: -500px;
+   
+   width: 1000px;
+   height: 250px;
+   
+   box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+   background: rgba(255, 255, 255, 0.1);
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   border-left: 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(5px);
+    
+ 
+}
+
+
+.about-container .about-card .about-content {
+    font-family: futura;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+
+
+  
+
+
+
+
+.about-features{
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    
+     
+    
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    font-family: futura;
+}
+.about-header{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    max-width: 100%;
+}
+
+.navbar-custom{
+         
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-nav a {
+	
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+   
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+	color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+}
+.navbar-nav {
+	text-align: center;
+}
+
+.nav-link.active, .nav-link:focus {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color:black;
+}
+
+.navbar-nav .open .dropdown-menu {
+  background-color:black;
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.footer{
+  box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+  background: rgb(141, 140, 140);
+ 
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 60px 0 30px;
+}
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+  }
