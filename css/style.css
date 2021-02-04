@@ -1,0 +1,191 @@
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background:white;
+    max-width: 100%;
+  }
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+  }
+
+  .welcome{
+      color: rgb(8, 8, 8);
+      margin: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  h1{
+     margin-bottom: 40px; 
+     color: rgb(36, 65, 37);
+
+
+  }
+
+  .list-group-item{
+      padding: 15px 1 5px;
+      background-color: rgba(36, 107, 57, 0.753);
+      color: black;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 16px;
+      
+      
+    }
+
+    a:hover{
+        color: rgb(185, 181, 181);
+    }
+
+    a:visited{
+        background-color:  rgba(36, 107, 57, 0.753);
+    }
+
+  h2{
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+
+  }
+
+  h3{
+      color: rgb(148, 144, 143);
+      margin-top: 20px;
+  }
+
+  .features .form-control,
+  .features input {
+      border-radius: 0;
+      margin-top: 10px;
+  }
+
+  .footer{
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgb(141, 140, 140);
+   
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 60px 0 30px;
+}
+
+
+
+/* sampon kamat */
+
+.navbar-custom{
+         
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-nav a {
+	
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+   
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+	color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+}
+.navbar-nav {
+	text-align: center;
+}
+
+.nav-link.active, .nav-link:focus {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color:black;
+}
+
+
+
+
+    
+    .carousel-item  {
+        
+        height: 75vh;
+        
+        width: 100%;
+    }
+
+    .w-100{
+        z-index: 20;
+       
+    }
+    
+    .navbar-nav .open .dropdown-menu {
+        background-color:black;
+      }
+       
+      .carousel-item h1 {
+        
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px -2px 0 black;
+      }
+
+    
+
+
+      .Contact-header h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px -2px 0 black;
+      }
+
+      .contact-body{
+
+          background-image: url(water.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100vh;
+          width: 100%;
+      }
+
+      /* Jeren kamat countries.html */
+
