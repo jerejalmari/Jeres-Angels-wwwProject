@@ -3,6 +3,9 @@
     font-family: futura;
     }
 
+    body {
+        font-family: futura;
+    }
 
 
 .about-container .about-card{ 
@@ -33,7 +36,7 @@
     font-family: futura;
     text-align: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     color:white;
     text-shadow: 2px -2px 0 black;
     
@@ -63,7 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 125vh;
     max-width: 100%;
     position: relative;
 }
