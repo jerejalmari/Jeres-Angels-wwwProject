@@ -138,9 +138,10 @@ body {
     
     .carousel-item  {
         
-        height: 75vh;
+        max-height: 90vh;
         
         width: 100%;
+        
     }
 
     .w-100{
@@ -251,3 +252,5 @@ body {
         height: 75vh;
         max-width: 100%;
     }
+
+    

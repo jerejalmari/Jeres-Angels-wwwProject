@@ -1,13 +1,12 @@
 .about-container .about-card{ 
            
     position: absolute;
-    top: 35%;
-    left: 50%;
-    margin-top: -250x;
-    margin-left: -500px;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%, -55%);
+    
+   margin-top: 35px;
    
-   width: 1000px;
-   height: 250px;
    
    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
    background: rgba(255, 255, 255, 0.1);
@@ -27,7 +26,9 @@
     font-family: futura;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 30px;
+    color:white;
+    text-shadow: 2px -2px 0 black;
     
 }
 
@@ -57,6 +58,7 @@
     background-size: cover;
     height: 75vh;
     max-width: 100%;
+    position: relative;
 }
 
 .navbar-custom{

@@ -1,103 +1,22 @@
-.w-100{
-    z-index: 20;
-   
-}
-
-.navbar-nav .open .dropdown-menu {
-    background-color:black;
-  }
-   
-  .carousel-item h1 {
-    font-family: futura;
-    font-size: 450%;
-    position: absolute;
-    margin: 0;
-    color: white;
-    left: 50%;
-    bottom: -175px;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px -2px 0 black;
-  }
 
 
 
 
-.about-container .about-card{ 
-       
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin-top: -250x;
-    margin-left: -500px;
-   
-   width: 1000px;
-   height: 250px;
-   
-   box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
-   background: rgba(255, 255, 255, 0.1);
-   overflow: hidden;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-top: 1px solid rgba(255, 255, 255, 0.5);
-   border-left: 1px solid rgba(255, 255, 255, 0.5);
-   backdrop-filter: blur(5px);
-    
- 
-}
-
-
-.about-container .about-card .about-content {
-    font-family: futura;
-    text-align: center;
-    align-items: center;
-    font-size: 20px;
-    
-}
 
 
 
-  
-
-
-
-
-.about-features{
-    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    
-     
-    
-    
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    font-family: futura;
-}
-.about-header{
-    background-image: url(https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    max-width: 100%;
-}
 
 .feedback-body{
 font-family: futura;
-background-image: url(https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
-max-width: 100%;
+
+
 
 }
 
 .feedback-container .feedback-topic{
 margin: 15px 0;
-border-left: 5px solid lightblue;
-padding-left: 15px;
+text-shadow: 2px -2px 0 black;
+
 color: white;
 }
 
@@ -108,7 +27,8 @@ background: rgba(255, 255, 255, 0.1);
 border-top: 1px solid rgba(255, 255, 255, 0.5);
 border-left: 1px solid rgba(255, 255, 255, 0.5);
 backdrop-filter: blur(5px);
-
+align-items: center;
+text-align: center;
 flex-direction:row;
 
 }
@@ -120,6 +40,7 @@ flex-direction:row;
 display: flex;
 color: black;
 background-color: white;
+margin-left: auto;
 margin-right: auto;
 border-radius: 8px;
 font-size: 20px;
@@ -137,7 +58,7 @@ background-color: rgba(13,110,253,255);
 
 .feedback-title{
 position: relative;
-border-left: 5px solid lightblue;
+text-shadow: 2px -2px 0 black;
 color: white;
 font-size: 50px;
 margin-bottom: 1em;
@@ -190,4 +111,30 @@ margin-bottom: 1em;
 
 .navbar-nav .open .dropdown-menu {
   background-color:black;
+}
+
+.footer{
+    
+  box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+  background: rgba(190, 183, 183, 0.726);
+ margin-top: 50px;
+ margin-bottom: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 60px 0 30px;
+}
+
+.feedback-back{
+  background-image: url('../img/wall3.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+height: 100%;
+width:  100%;
+}
+
+.form-check-label{
+  font-size: x-large;
+ 
 }
