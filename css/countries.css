@@ -79,9 +79,7 @@
       font-size: 20px;
     }
     .features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.158);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.164);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.151);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.158);
     margin-bottom: 16px;
     max-width: 100%;
     height: auto;
