@@ -1,0 +1,119 @@
+
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+    background-image: url('../img/wall4.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+  }
+  
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #8cb937;
+    text-align: center;
+    border: 1px solid #5b5c5e;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #5b5c5e;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .nappi {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background: #8cb937;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+  .navbar-custom{
+         
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-nav a {
+	
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+   
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+	color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+}
+.navbar-nav {
+	text-align: center;
+}
+
+.nav-link.active, .nav-link:focus {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color:black;
+}
+
+.navbar-nav .open .dropdown-menu {
+  background-color:black;
+}

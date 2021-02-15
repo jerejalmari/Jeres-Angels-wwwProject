@@ -4,7 +4,7 @@ $email = $_REQUEST['email'];
 $message = $_REQUEST['message'];
 
 
-$myUrl = "https://htmlprojekti.000webhostapp.com/#"
+$myUrl = "https://jerejalmari.github.io/Jeres-Angels-wwwProject/"
 
 if (empty($name) || empty($email) || empty($message))
   {

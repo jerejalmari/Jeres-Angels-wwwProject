@@ -1,7 +1,8 @@
-.w-100{
-    z-index: 20;
-   
-}
+@font-face{
+  src: url('../fonts/futura\ medium\ bt.ttf');
+  font-family: futura;
+  }
+
 
 .navbar-nav .open .dropdown-menu {
     background-color:black;
@@ -11,21 +12,19 @@
 
 
 
+
+
 .feedback-body{
 font-family: futura;
-background-image: url(https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
-max-width: 100%;
+
+
 
 }
 
 .feedback-container .feedback-topic{
 margin: 15px 0;
-border-left: 5px solid lightblue;
-padding-left: 15px;
+text-shadow: 2px -2px 0 black;
+font-family: futura;
 color: white;
 }
 
@@ -36,7 +35,8 @@ background: rgba(255, 255, 255, 0.1);
 border-top: 1px solid rgba(255, 255, 255, 0.5);
 border-left: 1px solid rgba(255, 255, 255, 0.5);
 backdrop-filter: blur(5px);
-
+align-items: center;
+text-align: center;
 flex-direction:row;
 
 }
@@ -48,10 +48,12 @@ flex-direction:row;
 display: flex;
 color: black;
 background-color: white;
+margin-left: auto;
 margin-right: auto;
 border-radius: 8px;
 font-size: 20px;
 transition-duration: 0.4s;
+font-family: futura;
 
 }
 
@@ -60,18 +62,20 @@ background-color:gray;
 
 }
 .form-check-input:hover{
-background-color: rgba(13,110,253,255);
+background-color: rgba(13,110,253);
 }
 
 .feedback-title{
 position: relative;
-border-left: 5px solid lightblue;
+text-shadow: 2px -2px 0 black;
 color: white;
 font-size: 50px;
 margin-bottom: 1em;
+font-family: futura;
 }
 
 .navbar-custom{
+
          
     box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
     background: rgba(255, 255, 255, 0.1);
@@ -118,4 +122,30 @@ margin-bottom: 1em;
 
 .navbar-nav .open .dropdown-menu {
   background-color:black;
+}
+
+.footer{
+    
+  box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+  background: rgba(190, 183, 183, 0.726);
+ margin-top: 50px;
+ margin-bottom: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 60px 0 30px;
+}
+
+.feedback-back{
+  background-image: url('../img/wall3.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+height: 100%;
+width:  100%;
+}
+
+.form-check-label{
+  font-size: x-large;
+ 
 }
